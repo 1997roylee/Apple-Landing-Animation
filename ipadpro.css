@@ -1,74 +1,76 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+* {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
 }
 
-img{
-    width: 100%;
+img {
+	width: 100%;
 }
 
-h2{
-    font-size: 28px;
-    line-height: 1.14286;
-    font-weight: 400;
-    letter-spacing: .007em;
-    padding-bottom: 16px;
+h2 {
+	font-size: 28px;
+	line-height: 1.14286;
+	font-weight: 400;
+	letter-spacing: 0.007em;
+	padding-bottom: 16px;
 }
 
-h3{
-    font-size: 96px;
-    line-height: 1.04167;
-    font-weight: 400;
-    margin-top: 16px;
+h3 {
+	font-size: 96px;
+	line-height: 1.04167;
+	font-weight: 400;
+	margin-top: 16px;
 }
 
-.animation-section{
-    height: 500vh;
+.animation-section {
+	height: 500vh;
 }
 
-.sticky{
-    position: sticky;
-    z-index: 2;
-    top: 0px;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
+.sticky {
+	position: sticky;
+	z-index: 2;
+	top: 0px;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
 }
 
-.sticky-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 100;
-    min-width: 1280px;
-    color: white;
-    transform: translateX(-50%) translateY(-50%);
-    transition: all .32s ease;
-    will-change: opacity;
+.sticky-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+	min-width: 1280px;
+	color: white;
+	transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transition: all 0.32s ease;
+	will-change: opacity;
 }
 
-.sticky-content.fade-out{
-    opacity: 0;
+.sticky-content.fade-out {
+	opacity: 0;
 }
 
-.row{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
+.row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
 }
 
-.ipad-pro{
-    position: absolute;
-    transform-origin: top center;
-    top: 0px;
+.ipad-pro {
+	position: absolute;
+	transform-origin: top center;
+	top: 0px;
 }
 
 .ipad-pro-wallpaper {
@@ -76,10 +78,10 @@ h3{
 }
 
 .ipad-pro-frame {
-    width: 519px;
-    position: relative;
-    height: 675px;
-    padding: 22px;
+	width: 519px;
+	position: relative;
+	height: 675px;
+	padding: 22px;
 }
 
 .ipad-pro-frame:before {
@@ -87,8 +89,8 @@ h3{
 	background-image: url('./assets/images/display_hardware_zoomed__cg6k2vj6fa6a_large.png');
 	position: absolute;
 	top: 0px;
-    left: 0px;
-    z-index: 10;
+	left: 0px;
+	z-index: 10;
 	right: 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -96,13 +98,13 @@ h3{
 }
 
 .ipad-pro-screen-ui {
-    z-index:10;
+	z-index: 10;
 	position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    margin: 22px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: 22px;
 }
 
 .ipad-pro-unlock {
